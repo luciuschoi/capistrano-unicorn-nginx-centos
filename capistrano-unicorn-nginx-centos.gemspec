@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'capistrano/unicorn_nginx_centos/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "capistrano-unicorn-nginx"
+  gem.name          = "capistrano-unicorn-nginx-centos"
   gem.version       = Capistrano::UnicornNginxCentos::VERSION
   gem.authors       = ["Ruben Stranders", "Bruno Sutic"]
   gem.email         = ["r.stranders@gmail.com", "bruno.sutic@gmail.com"]
